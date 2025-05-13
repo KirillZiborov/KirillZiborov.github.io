@@ -1,76 +1,87 @@
 body {
-    margin-top: 10px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;   
 }
 img {
-    border: solid;
+    border: solid #000;
     border-width: 1px;
 }
 span {
     font-style: italic;
 }
 #main {
-    width: 600px;
-    margin: auto;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
     position: relative;
-    font-family:"Optima", Arial, sans-serif;
-    font-size: 12pt;
 }
 #header { 
     position: relative; 
-    margin: auto;
     margin-top: 10px;
-    font-size: 10pt;
+    font-size: 12px;
 }
 #subheader { 
     float: left;
-    margin: auto;
     width: 350px;
-    line-height:70%;
+    line-height: 1.2;
 }
 h3 {
-    font-weight: normal;
-    font-size: 11pt;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0.3em 0;
 }
 h3.pub {
-    font-size: 11pt;
+    font-size: 18px;
     /* font-weight: bold; */
     margin-bottom: 0;
 }
 h2 {
-    font-weight: bold;
-    font-size: 13pt;
-    font-variant: small-caps;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.2em;
 }
 h1 {
-    font-variant: small-caps;
-    font-size: 16pt;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+p {
+    margin-bottom: 0.8em;
 }
 p.authors {
-    font-weight: normal;
-    font-size: 10pt;
+    font-size: 14px;
     font-style: italic;
     margin-top: 0;
     margin-left: 1em;
 }
-#portrait {
+#photo {
     width: 150px;
     float: right;
-    margin: auto;
+    margin-left: 20px;
 }
 #content { 
     clear: both;
     position: relative;
-    margin: auto;
+    margin-top: 20px;
 }
 #research {
     position: relative;
+    clear: both;
 }
 #background {
     clear: both;
     position: relative;
 }
 div.title {
-    font-size: 13pt;
+    font-size: 20px;
     font-weight: bold;
+    margin-top: 1em;
 }
